@@ -14,7 +14,7 @@ TSR_ALL1 wnet through feature selection (TSR_ALL1_EXTRACTION.py), data preproces
 ## data modelling step (model file)
 Fed dataset into ET (extra trees), LR (logistic regression), XGBC (xgb classifier), Clinical (clinical scores)
 
-## results step (result)
+## result step (result)
 - For AUROC, utilisied TSR_ALL1_VALIDATION_AUC.py and TSR_ALL1_TEST_AUC.py
   * AUROC plot, utilised TSR_ALL_AUROC.ipynb
 - For Feature Importance and SHAP, utilised TSR_ALL1_FI.ipynb
