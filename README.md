@@ -1,10 +1,26 @@
 # TSR_ML
-
+- Utilising multiple machine learning algorithms to explore which clinical variables could cause ischaemic stroke patients' follow-up assessments to change at the first and the third follow-up months.
+- The based dataset is "raw data/TSR_ALL with follow-up information.csv"
 * script names contained "combined" meant that the dataset was not split into GOOD group or POOR group
 
 Based on whether mrs_tx_3 were included in the feature list
   - YES => TSR_ALL31 
   - NO  => TSR_ALL1 (Example in this file)
+  
+## Packages
+  - Python
+    - pandas (version: 1.2.4)
+    - numpy (version: 1.20.3)
+    - sklearn (version: 0.24.2)
+    - imblearn (version: 0.8.0)
+    - seaborn (version: 0.11.0)
+    - matplotlib (version: 3.4.2)
+    - shap (version: 0.39.0)
+    
+  - R
+    - R (version: 4.0.4)
+    - RStudio (version: 1.4.1103)
+    - mice (version: 3.13.0)
 
 ## data cleaning step (cleaning file)
 TSR_ALL1 wnet through feature selection (TSR_ALL1_EXTRACTION.py), data preprocessing (TSR_ALL1_PREPROCESS.py), data imputation (TSR_ALL_IMPUTATION.R), and TSR_ALL1 were split into train, validation and test sets (TSR_ALL1_SPLIT.py). 
